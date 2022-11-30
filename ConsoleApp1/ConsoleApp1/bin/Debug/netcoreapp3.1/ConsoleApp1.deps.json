@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "Atlassian.SDK.Signed": "10.8.0"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "Atlassian.SDK.Signed/10.8.0": {
+        "runtime": {
+          "lib/net452/Atlassian.Jira.Signed.dll": {
+            "assemblyVersion": "10.8.0.0",
+            "fileVersion": "10.8.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Atlassian.SDK.Signed/10.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vprWxSXdxhgUYoQkApnMgbLyfq3H468Z/aozOOF5pPvlJA8IWMWjoSxIxdTdtB9mcJjQ2g/Ag7J9IB0W9GG56w==",
+      "path": "atlassian.sdk.signed/10.8.0",
+      "hashPath": "atlassian.sdk.signed.10.8.0.nupkg.sha512"
+    }
+  }
+}
